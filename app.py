@@ -8,3 +8,10 @@ pay = float(pay)
 monthly_pay = hours * 4 * pay
 
 print(f"Your estimated monthly pay is: ${monthly_pay:.2f}")
+
+try:
+    hours = float(hours)
+    pay = float(pay)
+except ValueError:
+    print("Please enter valid numbers for hours and pay rate.")
+    exit()
