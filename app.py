@@ -6,3 +6,5 @@ hours = float(hours)
 pay = float(pay)
 
 monthly_pay = hours * 4 * pay
+
+print(f"Your estimated monthly pay is: ${monthly_pay:.2f}")
